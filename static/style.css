@@ -21,6 +21,7 @@ body{
     align-items: center;
     height: 85px;
     padding: 5px 10%;
+    position: relative;
 }
 
 .header .logo{
@@ -71,11 +72,14 @@ body{
     display: none;
     position: absolute;
     background-color: #165f37;
-    top: 9%;
-    right: 1;
+    top: 75px;
+    right: 50px;
     list-style: none;
     padding: 0;
     margin: 0;
+    z-index: 100;
+    border-radius: 8px;
+    width: 200px;
 }
 
 .user_logo .list_menu li a {
@@ -90,7 +94,6 @@ body{
     color: #ffffff;
 }
 
-/* Mostrar el menú cuando el checkbox está activado */
 .toggle-input:checked + .user-logo-label + .list_menu {
     display: block;
 }
@@ -105,5 +108,26 @@ body{
 }
 
 .user_logo{
-    margin-right: -50px;
+    margin-right: 0px;
+}
+
+/*Aqui abajo esta el boton de informacion*/
+.bt {
+    padding: 20px 30px;
+    background-color: #165f37;
+    color: #d7fbef;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container_btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
 }
