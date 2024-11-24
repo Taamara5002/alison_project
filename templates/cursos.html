@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combarranquilla</title>
     <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     
-    <!--Navbar-->
+<!--Navbar-->
     <header class="header">
         <div class="logo">
-            <img src="/img/logo_combarranquilla.png" alt="Logo deseado">
+            <a href="/index.html"><img src="/img/logo_combarranquilla.png" alt="Logo deseado"></a>
         </div>
         <nav>
             <ul class="nav-link">
@@ -22,9 +23,47 @@
             </ul>
         </nav>
 
-        
+        <div class="user_logo">
+            <!-- Input de tipo checkbox para el toggle -->
+            <input type="checkbox" id="toggle-menu" class="toggle-input">
+            <label for="toggle-menu" class="user-logo-label">
+                <img src="/img/user_logo_img.jpg" alt="logo_usuario">
+            </label>
+            <ul class="list_menu">
+                <li><a href="#">No sé</a></li>
+                <li><a href="#">Configuración</a></li>
+                <li><a href="#">Cerrar sesión</a></li>
+            </ul>
+        </div>
     </header>
 
-    <h1>Cursos</h1>
+
+    <h1 class="tt">Mis cursos</h1>
+
+    <!--CARTAS-->
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="true" href="#">Matriculadas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Completadas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div class="card text-bg-dark">
+                    <img src="/img/img_ex1_yaoyuzu.jpg" class="card-img" alt="..." style="height: 150px; width: 300px;">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to  additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

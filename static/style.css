@@ -131,3 +131,23 @@ body{
     right: 20px;
     z-index: 10;
 }
+
+/* AQUI DEBAJO TODO EL CSS DE LA PAGINA CURSOS*/
+
+.tt{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 70px;
+    color: #165f37;
+}
+
+/*CSS DE LAS CARTAS*/
+.card-body{
+    width: auto;
+    height: auto;
+}
+
+.card{
+    width: 600px;
+    height: 150px;
+}
