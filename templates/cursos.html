@@ -41,29 +41,51 @@
     <h1 class="tt">Mis cursos</h1>
 
     <!--CARTAS-->
-    <div class="container">
-        <div class="card text-center">
-            <div class="card-header">
+    <div class="container col-1" style="width: 80%; padding-top: 20px; min-height: fit-content; border: none;">
+        <div class="card" style="background-color: #c1d47a; width: 80%; height: 400px; border: none;">
+            <div class="card-header" style="border: none;">
                 <ul class="nav nav-tabs card-header-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="true" href="#">Matriculadas</a>
+                        <a class="nav-link active" aria-current="true" href="#" style="background-color: #c1d47a;border-color: #c1d47a; border-radius: 5%; color: #e9faf5; font-weight: 700;">Matriculadas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Completadas</a>
+                        <a class="nav-link" href="#" style="background-color: #e1e9c0; color: #025936; font-weight: 700;">Completadas</a>
                     </li>
                 </ul>
             </div>
-            <div class="card-body">
-                <div class="card text-bg-dark">
-                    <img src="/img/img_ex1_yaoyuzu.jpg" class="card-img" alt="..." style="height: 150px; width: 300px;">
+            <div class="card-body d-flex flex-wrap gap-3" style="margin-top: 30px;">
+                <div class="card card-img-container" style="color: #e9faf5; width: 40%; background-color: #c1d47a; border: none; margin-left: 40px;">
+                    <img src="/img/verduras_img_card.jpg" class="card-img" alt="..." style="height: 200px; width: 100%; border-radius: 3%;">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to  additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        <h5 class="card-title" style="font-weight: 600;">Manipulación de alimentos</h5>
+                        <p class="card-text" style="font-weight: 600;"><small>Profesor Ramirez</small></p>
+                        <p class="card-text" style="font-weight: 600; padding-top: 35px; padding-left: 20px;"><small>60% completado</small></p>
+                        <div class="container ct_bt d-flex justify-content-around mt-3">
+                            <button class="bt1">Lecciones</button>
+                            <button class="bt2">Foros</button>
+                            <button class="bt3">Tareas</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-img-container" style="color: #e9faf5; width: 40%; background-color: #c1d47a; border: none; margin-left: 70px;">
+                    <img src="/img/pasteleria_ing_card.jpg" class="card-img" alt="..." style="height: 200px; width: 100%; border-radius: 3%;">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title" style="font-weight: 600;">Pastelería 1</h5>
+                        <p class="card-text" style="font-weight: 600;"><small>Profesor Ramirez</small></p>
+                        <p class="card-text" style="font-weight: 600; padding-top: 35px; padding-left: 20px;"><small>25% completado</small></p>
+                        <div class="container ct_bt d-flex justify-content-around mt-3">
+                            <button class="bt1">Lecciones</button>
+                            <button class="bt2">Foros</button>
+                            <button class="bt3">Tareas</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
