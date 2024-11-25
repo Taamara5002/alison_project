@@ -173,6 +173,8 @@ main{
     border-radius: 8%;
     margin-top: -20px;
     margin-left: -14px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .bt1{
