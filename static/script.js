@@ -13,3 +13,7 @@ function goMatriculadas(){
     ctn1.style.backgroundColor = ""
     ctn1.style.backgroundColor = "#c1d47a"
 }
+
+function aviso() {
+    alert('Hola')
+}

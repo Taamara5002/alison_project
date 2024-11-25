@@ -30,15 +30,15 @@
                 <img src="/img/user_logo_img.jpg" alt="logo_usuario">
             </label>
             <ul class="list_menu">
-                <li><a href="#">No sé</a></li>
+                <li><a href="#">Perfil</a></li>
                 <li><a href="#">Configuración</a></li>
                 <li><a href="#">Cerrar sesión</a></li>
             </ul>
         </div>
     </header>
 
-
-    <h1 class="tt">Mis cursos</h1>
+    <main>
+        <h1 class="tt">Mis cursos</h1>
 
     <!--CARTAS-->
     <div class="container col-1" style="width: 80%; padding-top: 20px; min-height: fit-content; border: none;">
@@ -61,9 +61,9 @@
                         <p class="card-text" style="font-weight: 600;"><small>Profesor Ramirez</small></p>
                         <p class="card-text" style="font-weight: 600; padding-top: 35px; padding-left: 20px;"><small>60% completado</small></p>
                         <div class="container ct_bt d-flex justify-content-around mt-3">
-                            <button class="bt1">Lecciones</button>
-                            <button class="bt2">Foros</button>
-                            <button class="bt3">Tareas</button>
+                            <button class="bt1" onclick="aviso()">Lecciones</button>
+                            <button class="bt2" onclick="aviso()">Foros</button>
+                            <button class="bt3" onclick="aviso()">Tareas</button>
                         </div>
                     </div>
                 </div>
@@ -74,15 +74,26 @@
                         <p class="card-text" style="font-weight: 600;"><small>Profesor Ramirez</small></p>
                         <p class="card-text" style="font-weight: 600; padding-top: 35px; padding-left: 20px;"><small>25% completado</small></p>
                         <div class="container ct_bt d-flex justify-content-around mt-3">
-                            <button class="bt1">Lecciones</button>
-                            <button class="bt2">Foros</button>
-                            <button class="bt3">Tareas</button>
+                            <button class="bt1" onclick="aviso()">Lecciones</button>
+                            <button class="bt2" onclick="aviso()">Foros</button>
+                            <button class="bt3" onclick="aviso()">Tareas</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--Boton de signo de interrogacion-->
+    <button class="circular-button" onclick="aviso()"><img src="/img/Question Mark.png" alt="" style="width: 30px; height: 30px;"></button>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer_content">
+            <p>©Q10</p>
+        </div>
+    </footer>
 
     <!--Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

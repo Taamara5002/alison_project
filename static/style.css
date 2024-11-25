@@ -9,7 +9,14 @@
 }
 
 body{
-    background-color: #f1f5e8;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
 }
 
 /*Lo de abajo es el navbar en general*/
@@ -219,3 +226,41 @@ body{
     padding: 10px;
 }
 
+/*BOTON DE INTERROGACION DE LA PAGINA CURSOS*/
+.circular-button {
+    background-color: #165f37;
+    color: white;
+    border: none;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.circular-button:active {
+    background-color: #45a049;
+}
+
+/*FOOTER*/
+
+.footer_content{
+    background-color: #a7c339;
+    text-align: end;
+    margin-top: auto;
+    height: 40px;
+}
+
+.footer .footer_content p{
+    color: #d7fbef;
+    font-weight: 700;
+    margin-right: 30px;
+    padding-top: 5px;
+}
