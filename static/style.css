@@ -36,10 +36,10 @@ main{
 }
 
 .header .logo img{
-    height: 50px;
+    height: 30px;
     width: auto;
     transition: all 0.3s;
-    margin-left: -110px;
+    margin-left: -90px;
 }
 
 .header .logo img:hover{
@@ -59,7 +59,7 @@ main{
     transform: scale(1.1);
 }
 .header .nav-link a{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: #8ec15c;
     text-decoration: none;
@@ -79,14 +79,14 @@ main{
     display: none;
     position: absolute;
     background-color: #165f37;
-    top: 75px;
-    right: 50px;
+    top: 67px;
+    right: 3px;
     list-style: none;
     padding: 0;
     margin: 0;
     z-index: 100;
     border-radius: 8px;
-    width: 200px;
+    width: 170px;
 }
 
 .user_logo .list_menu li a {
@@ -94,6 +94,7 @@ main{
     padding: 10px;
     text-decoration: none;
     color: #d9e2d2;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -106,8 +107,8 @@ main{
 }
 
 .user_logo img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
     border-radius: 50%;
     object-fit: cover;
@@ -118,9 +119,9 @@ main{
     margin-right: 0px;
 }
 
-/*Aqui abajo esta el boton de informacion*/
+/*Aqui abajo esta el boton de informacion de la pagina de inicio*/
 .bt {
-    padding: 20px 30px;
+    padding: 10px 15px;
     background-color: #165f37;
     color: #d7fbef;
     font-weight: 500;
@@ -130,6 +131,7 @@ main{
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .container_btn {
@@ -142,8 +144,8 @@ main{
 /* AQUI DEBAJO TODO EL CSS DE LA PAGINA CURSOS*/
 
 .tt{
-    font-size: 25px;
-    margin-left: 320px;
+    font-size: 18px;
+    margin-left: 135px;
     margin-top: 70px;
     color: #165f37;
     font-weight: 700;
@@ -151,28 +153,23 @@ main{
 
 /*CSS DE LAS CARTAS*/
 
-.card{
-    width: 600px;
-    height: 150px;
-}
-
 .ct_bt {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     background-color: #c1d47a;
+    margin-top: 30px;
+    margin-right: 40px;
 }
 
 .ct_bt button{
     border: none;
     flex: 1;
+    font-size: 12px;
     text-align: center;
-    font-size: 16px;
-    padding: 7px 7px;
+    padding: 10px 10px;
     font-weight: 500;
     border-radius: 8%;
-    margin-top: -20px;
-    margin-left: -14px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -198,7 +195,6 @@ main{
 
 .card-img {
     width: 100%;
-    height: 200px;
     object-fit: cover;
 }
 
@@ -208,7 +204,7 @@ main{
     top: 0;
     left: 0;
     width: 100%;
-    height: 74%;
+    height: 72.5%;
     background-color: rgba(22, 95, 65, 0.5);
     z-index: 1;
     border-radius: 3%;
@@ -221,7 +217,7 @@ main{
     z-index: 2;
     color: #ffffff;
     width: 100%;
-    height: 75%;
+    height: 72.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -233,7 +229,7 @@ main{
     background-color: #165f37;
     color: white;
     border: none;
-    padding: 30px;
+    padding: 20px;
     border-radius: 50%;
     font-size: 16px;
     cursor: pointer;
@@ -243,8 +239,9 @@ main{
     width: 30px;
     height: 30px;
     text-align: center;
-    margin-left: 80px;
-    margin-top: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .circular-button:active {
@@ -261,7 +258,8 @@ main{
 }
 
 .footer .footer_content p{
-    color: #d7fbef;
+    color: #ffffff;
+    font-size: 14px;
     font-weight: 700;
     margin-right: 30px;
     padding-top: 5px;
